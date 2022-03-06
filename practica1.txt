@@ -1,0 +1,67 @@
+Script started on 2022-03-06 17:58:15+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;vant@minimoove: ~[01;32mvant@minimoove[00m:[01;34m~[00m$ python3 practica1naia.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pcd Descargaspython3 lock.pycd CritSectionSem[2Ppython3 lock.pycd CritSectionSem[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpractica1prpd
+]0;vant@minimoove: ~/practica1prpd[01;32mvant@minimoove[00m:[01;34m~/practica1prpd[00m$ cd practica1prpdpython3 practica1naia.py
+producer prod_0 produciendo
+producer prod_1 produciendo
+producer prod_2 produciendo
+producer prod_1 almacenado 0
+producer prod_1 produciendo
+producer prod_0 almacenado 0
+producer prod_0 produciendo
+producer prod_1 almacenado 1
+producer prod_1 produciendo
+producer prod_2 almacenado 0
+producer prod_2 produciendo
+consumer cons_0 desalmacenando
+consumer cons_0 consumiendo 9
+producer prod_0 almacenado 1
+producer prod_0 produciendo
+producer prod_1 almacenado 2
+producer prod_1 produciendo
+consumer cons_0 desalmacenando
+consumer cons_0 consumiendo 11
+producer prod_0 almacenado 2
+producer prod_0 produciendo
+consumer cons_0 desalmacenando
+consumer cons_0 consumiendo 11
+producer prod_2 almacenado 1
+producer prod_2 produciendo
+producer prod_1 almacenado 3
+producer prod_1 produciendo
+consumer cons_0 desalmacenando
+producer prod_2 almacenado 2
+producer prod_2 produciendo
+producer prod_0 almacenado 3
+producer prod_0 produciendo
+consumer cons_0 consumiendo 12
+producer prod_2 almacenado 3
+producer prod_2 produciendo
+producer prod_1 almacenado 4
+consumer cons_0 desalmacenando
+consumer cons_0 consumiendo 15
+producer prod_2 almacenado 4
+consumer cons_0 desalmacenando
+consumer cons_0 consumiendo 20
+consumer cons_0 desalmacenando
+consumer cons_0 consumiendo 21
+producer prod_0 almacenado 4
+consumer cons_0 desalmacenando
+consumer cons_0 consumiendo 22
+consumer cons_0 desalmacenando
+consumer cons_0 consumiendo 23
+consumer cons_0 desalmacenando
+consumer cons_0 consumiendo 29
+consumer cons_0 desalmacenando
+consumer cons_0 consumiendo 33
+consumer cons_0 desalmacenando
+consumer cons_0 consumiendo 35
+consumer cons_0 desalmacenando
+consumer cons_0 consumiendo 44
+consumer cons_0 desalmacenando
+consumer cons_0 consumiendo 50
+consumer cons_0 desalmacenando
+consumer cons_0 consumiendo 58
+[9, 11, 11, 12, 15, 20, 21, 22, 23, 29, 33, 35, 44, 50, 58]
+]0;vant@minimoove: ~/practica1prpd[01;32mvant@minimoove[00m:[01;34m~/practica1prpd[00m$ python3 practica1naia.py[8Pcd practica1prpdpython3 practica1naia.py[12Pcd Descargaspython3 lock.pycd CritSectionSem[2Ppython3 lock.py[3Pcd Descargaspython3 lock.pycd CritSectionSem[2Ppython3 lock.pycd CritSectionSem[9Pgit pushcommit -m"critsection.txt"[7Padd critsection.txtpush[Kcommit -m"lock.py"[7Padd lock.py[7Ppushcommit -m"bounded.py"[7Padd bounded.py[1Pcd CritSectionSem..[Kgit add bounded.py[9Pcd deckergit add bounded.pyscript critsection.txt[4Pgit add bounded.py[9Pcd deckergit add bounded.pycd ..[KCritSectionSemgit add bounded.pycommit -m"bounded.py"push[Kadd lock.pycommit -m"lock.py"push[Kadd critsection.txtcommit -m"critsection.txt"push[Kcd CritSectionSem[2Ppython3 lock.pycd CritSectionSem[2Ppython3 lock.py[3Pcd Descargaspython3 practica1naia.py[8Pcd practica1prpdpython3 practica1naia.py[Kexit
+
+Script done on 2022-03-06 18:00:03+01:00 [COMMAND_EXIT_CODE="0"]
